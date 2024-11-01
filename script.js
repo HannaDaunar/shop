@@ -238,7 +238,8 @@ function prepareShopItem(shopItem) {
 
 const btnFavourites = document.querySelector(".favourites");
 btnFavourites.addEventListener("click", function() {
-    renderItems(itemsFavourites);
+    currentState = itemsFavourites;
+    renderItems(currentState);
 })
 
 const buttonSale = document.querySelector(".btn-sale");
@@ -293,4 +294,5 @@ sortControl.addEventListener("change", (event) => {
             }
     }
     renderItems(currentState);
+
 });

@@ -130,24 +130,8 @@ ul {
     margin-top: 0;
 }
 
-.shop-item .description {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: left;
-}
-
-.shop-item .ellipsis {
-    /*margin-left: 8px;*/
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: red;
-    display: inline-block;
-}
-
-.shop-item .ellipsis:hover {
-    cursor: pointer;
-    transform: scale(2);
-    transition: all, .5s;
+.shop-item p {
+    margin-top: 0;
 }
 
 .shop-item .footer {

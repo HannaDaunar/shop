@@ -190,7 +190,22 @@ function prepareShopItem(shopItem) {
     const { title, description, button, volume, img, price, discount, rating } = shopItem;
     const item = itemTemplate.content.cloneNode(true);
     item.querySelector("h1").textContent = title;
-    item.querySelector("p").textContent = description;
+    //item.querySelector("p").textContent = description;
+
+    const descriptionHolder = item.querySelector(".description");
+    const subDescription = document.createElement('p');
+    subDescription.classList.add('slice');
+    subDescription.textContent = description.slice(0, 70);
+    descriptionHolder.append(subDescription);
+    const ellipsis = document.createElement('span');
+    ellipsis.classList.add('ellipsis');
+    ellipsis.textContent = '...';
+    subDescription.append(ellipsis);
+    ellipsis.addEventListener('click', function() {
+        subDescription.textContent = description.slice(0);
+    })
+
+
     item.querySelector(".volume").textContent = volume;
     item.querySelector("img").src = img;
     item.querySelector(".price").textContent = `${price}P`;

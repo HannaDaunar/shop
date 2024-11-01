@@ -219,6 +219,7 @@ function prepareShopItem(shopItem) {
         heart.addEventListener('click', function() {
             if (itemsFavourites.includes(shopItem)) {
                 heart.classList.remove('active');
+                itemsFavourites.splice(itemsFavourites[heart.closest(".shop-item")], 1);
             } else {
                 heart.classList.add('active');
                 itemsFavourites.push(shopItem);

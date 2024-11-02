@@ -48,7 +48,20 @@ footer a:hover {
     transition: all 1.5s;
 }
 
-.nav input:focus {
+.nav a button {
+    font-family: "open Sans", sans-serif;
+    font-size: 1.125rem;
+    color: #551A8B;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav a button:hover {
+    color: #262020;
+}
+
+.nav .nav input:focus {
     outline-color: #f4bcdd;
     outline-style: solid;
 }

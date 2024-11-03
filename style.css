@@ -31,7 +31,7 @@ main {
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 0;
 }
 
@@ -89,6 +89,7 @@ ul {
 .site-search input {
     border: 1px solid rgb(118, 118, 118);
     border-radius: 4px 0 0 4px;
+    padding: 2px;
 }
 
 .site-search button {

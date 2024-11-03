@@ -1,6 +1,10 @@
 const items = [{
         title: "крем для век с коллагеном AHC Premier",
-        description: "Высокопитательный ампульный крем для век с коллагеном AHC Premier Ampoule In Eye Cream Collagen T4 оказывает выраженное подтягивающее действие, разглаживает мелкие мимические морщинки, способствует осветлению тёмных кругов. Содержит комплекс пептидов, витамин С, пробиотики, масло макадамии и гиалуроновую кислоту.",
+        description: `Высокопитательный ампульный крем для век с коллагеном AHC Premier 
+        Ampoule In Eye Cream Collagen T4 оказывает выраженное подтягивающее действие,
+        разглаживает мелкие мимические морщинки, способствует осветлению тёмных кругов.
+        Содержит комплекс пептидов, витамин С, пробиотики, масло макадамии и гиалуроновую
+        кислоту.`,
         button: 1,
         favorite: false,
         volume: "30мл",
@@ -11,7 +15,10 @@ const items = [{
     },
     {
         title: "Антивозрастная сыворотка для век с женьшенем Fraijour",
-        description: "Антивозрастная сыворотка для век с женьшенем Fraijour Alchemic Ginsenoside Contour Eye Serum подтягивает и укрепляет кожу вокруг глаз, уменьшает выраженность морщин, разглаживает и повышает упругость. Сокращает припухлости и тёмные круги.",
+        description: `Антивозрастная сыворотка для век с женьшенем Fraijour Alchemic
+        Ginsenoside Contour Eye Serum подтягивает и укрепляет кожу вокруг глаз, уменьшает
+        выраженность морщин, разглаживает и повышает упругость. Сокращает припухлости и
+        тёмные круги.`,
         button: 1,
         favorite: false,
         volume: "20мл",
@@ -22,7 +29,10 @@ const items = [{
     },
     {
         title: "Лифтинг-крем для век с пептидным комплексом Medi-Peel",
-        description: "Лифтинг-крем для век с пептидным комплексом Medi-Peel Peptide Bor Tox Eye Cream эффективно разглаживает гусиные лапки и мимические морщины в области вокруг глаз, подтягивает и увлажняет. Предотвращает появление новых заломов, повышает упругость и уплотняет ткани.",
+        description: `Лифтинг-крем для век с пептидным комплексом Medi-Peel Peptide Bor
+        Tox Eye Cream эффективно разглаживает гусиные лапки и мимические морщины в
+        области вокруг глаз, подтягивает и увлажняет. Предотвращает появление новых
+        заломов, повышает упругость и уплотняет ткани.`,
         button: 1,
         favorite: false,
         volume: "40мл",
@@ -33,7 +43,10 @@ const items = [{
     },
     {
         title: "Крем для век многофункционального действия Mizon",
-        description: "Крем для век многофункционального действия Mizon Only One Eye Cream For Face выполняет сразу несколько действий: интенсивно увлажняет и питает, способствует разглаживанию морщин, замедляет процессы старения и борется с тёмными кругами.",
+        description: `Крем для век многофункционального действия Mizon Only One Eye Cream
+        For Face выполняет сразу несколько действий: интенсивно увлажняет и питает,
+        способствует разглаживанию морщин, замедляет процессы старения и борется с
+        тёмными кругами.`,
         button: 1,
         favorite: false,
         volume: "30мл",
@@ -44,7 +57,10 @@ const items = [{
     },
     {
         title: "Гель-крем для проблемной кожи с экстрактом красного лука IsNtree",
-        description: "Гель-крем для проблемной кожи с экстрактом красного лука IsNtree Onion Newpair Gel Cream обладает мощным антибактериальным свойством, стимулирует заживление акне и мелких высыпаний. Высокая антиоксидантная активность средства блокирует разрушающее действие токсинов и укрепляет защитные функции эпидермиса.",
+        description: `Гель-крем для проблемной кожи с экстрактом красного лука IsNtree
+        Onion Newpair Gel Cream обладает мощным антибактериальным свойством, стимулирует
+        заживление акне и мелких высыпаний. Высокая антиоксидантная активность средства
+        блокирует разрушающее действие токсинов и укрепляет защитные функции эпидермиса.`,
         button: 1,
         favorite: false,
         volume: "50мл",
@@ -55,7 +71,9 @@ const items = [{
     },
     {
         title: "Восстанавливающий крем с пробиотиками и церамидами Neogen",
-        description: "Восстанавливающий крем с пробиотиками и церамидами Neogen Dermalogy Probiotics Relief Cream делает кожу более гладкой и упругой, замедляет процессы окисления, препятствует преждевременному старению, разглаживает рельеф.",
+        description: `Восстанавливающий крем с пробиотиками и церамидами Neogen Dermalogy
+        Probiotics Relief Cream делает кожу более гладкой и упругой, замедляет процессы
+        окисления, препятствует преждевременному старению, разглаживает рельеф.`,
         button: 1,
         favorite: false,
         volume: "50мл",
@@ -66,7 +84,11 @@ const items = [{
     },
     {
         title: "Водостойкий солнцезащитный крем с алоэ Holika Holika",
-        description: "Водостойкий солнцезащитный крем с алоэ Holika Holika Aloe Waterproof Sun Cream SPF 50+ PA ++++ надёжно защищает от ультрафиолетовых лучей типа UVA и UVB, предотвращает появление покраснения и ожогов, препятствует фотостарению и появлению пигментных пятен. Не оставляет белых следов, быстро впитывается, подходит для лица и тела.",
+        description: `Водостойкий солнцезащитный крем с алоэ Holika Holika Aloe Waterproof
+        Sun Cream SPF 50+ PA ++++ надёжно защищает от ультрафиолетовых лучей типа UVA и
+        UVB, предотвращает появление покраснения и ожогов, препятствует фотостарению и
+        появлению пигментных пятен. Не оставляет белых следов, быстро впитывается,
+        подходит для лица и тела.`,
         button: 1,
         favorite: false,
         volume: "70мл",
@@ -77,7 +99,11 @@ const items = [{
     },
     {
         title: "Санскрин с берёзовым соком Round Lab",
-        description: "Санскрин с берёзовым соком Round Lab Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++ отлично защищает чувствительную кожу от ультрафиолета, предотвращает покраснение и появление ожогов, препятствует фотостарению. Не вызывает жирного блеска, снижает чувствительность к внешним раздражителям.",
+        description: `Санскрин с берёзовым соком Round Lab Birch Juice Moisturizing
+        Mild-Up Sunscreen SPF50+ PA++++ отлично защищает чувствительную кожу от
+        ультрафиолета, предотвращает покраснение и появление ожогов, препятствует
+        фотостарению. Не вызывает жирного блеска, снижает чувствительность к внешним
+        раздражителям.`,
         button: 1,
         favorite: false,
         volume: "50мл",
@@ -88,7 +114,10 @@ const items = [{
     },
     {
         title: "Глиняная маска для сужения пор с бобами маш beplain",
-        description: "Глиняная маска с бобами маш beplain Mung Bean Pore Clay Mask проникает глубоко в поры и выводит из них всех загрязнения, растворяет комедоны и помогает в борьбе с чёрными точками. Регулирует выработку себума, сужает расширенные поры и осветляет сальные нити.",
+        description: `Глиняная маска с бобами маш beplain Mung Bean Pore Clay Mask
+        проникает глубоко в поры и выводит из них всех загрязнения, растворяет комедоны и
+        помогает в борьбе с чёрными точками. Регулирует выработку себума, сужает
+        расширенные поры и осветляет сальные нити.`,
         button: 1,
         favorite: false,
         volume: "120мл",
@@ -99,7 +128,11 @@ const items = [{
     },
     {
         title: "Ночная гидрогелевая маска с церамидами против сухости Biodance",
-        description: "Ночная гидрогелевая маска с церамидами против сухости Biodance Hydro Cera-Nol Real Deep Mask интенсивно питает и увлажняет, заживляет сухую и повреждённую кожу, снижает чувствительность и укрепляет защитный гидролипидный барьер, смягчает огрубевшие и обветренные участки, запускает внутренние процессы регенерации и снимает раздражение. Восстанавливает за 3-4 часа",
+        description: `Ночная гидрогелевая маска с церамидами против сухости Biodance
+        Hydro Cera-Nol Real Deep Mask интенсивно питает и увлажняет, заживляет сухую и
+        повреждённую кожу, снижает чувствительность и укрепляет защитный гидролипидный
+        барьер, смягчает огрубевшие и обветренные участки, запускает внутренние процессы
+        регенерации и снимает раздражение. Восстанавливает за 3-4 часа`,
         button: 1,
         favorite: false,
         volume: "34г",
@@ -110,7 +143,9 @@ const items = [{
     },
     {
         title: "Гидрогелевые патчи с протеинами шёлка JMsolution",
-        description: "Гидрогелевые патчи с протеинами шёлка JMsolution Silky Cocoon Home Esthetic Eye Patch оказывают лёгкое охлаждающее действие, разглаживают мелкие морщинки и уменьшают их выраженность, снимают отёки и следы усталости.",
+        description: `Гидрогелевые патчи с протеинами шёлка JMsolution Silky Cocoon Home
+        Esthetic Eye Patch оказывают лёгкое охлаждающее действие, разглаживают мелкие
+        морщинки и уменьшают их выраженность, снимают отёки и следы усталости.`,
         button: 1,
         favorite: false,
         volume: "90г (60шт)",
@@ -121,7 +156,10 @@ const items = [{
     },
     {
         title: "Очищающее гидрофильное масло с бобами маш beplain",
-        description: "Очищающее гидрофильное масло с бобами маш beplain Mung Bean Cleansing Oil эффективно удаляет все загрязнения, макияж любой стойкости, тональные и солнцезащитные средства. Масло проникает глубоко в поры, очищать и сужать их, сокращает выраженность чёрных точек и сальных нитей.",
+        description: `Очищающее гидрофильное масло с бобами маш beplain Mung Bean
+        Cleansing Oil эффективно удаляет все загрязнения, макияж любой стойкости,
+        тональные и солнцезащитные средства. Масло проникает глубоко в поры, очищать и
+        сужать их, сокращает выраженность чёрных точек и сальных нитей.`,
         button: 1,
         favorite: false,
         volume: "200мл",
@@ -132,7 +170,10 @@ const items = [{
     },
     {
         title: "Увлажняющий гель для умывания с церамидами Hyggee",
-        description: "Увлажняющий гель для умывания Hyggee pH Hyaluron Gel Cleanser бережно устраняет все виды загрязнений, остатки макияжа и излишки себума. Имеет нейтральный pH и подходит для очищения самой чувствительной кожи, снимает покраснения, успокаивает воспаления и предотвращает появление новых.",
+        description: `Увлажняющий гель для умывания Hyggee pH Hyaluron Gel Cleanser
+        бережно устраняет все виды загрязнений, остатки макияжа и излишки себума. Имеет
+        нейтральный pH и подходит для очищения самой чувствительной кожи, снимает
+        покраснения, успокаивает воспаления и предотвращает появление новых.`,
         button: 1,
         favorite: false,
         volume: "200 мл",
@@ -143,7 +184,11 @@ const items = [{
     },
     {
         title: "Увлажняющий тоник с пептидами и гиалуроновой кислотой JMsolution",
-        description: "Увлажняющий тоник с пептидами и гиалуроновой кислотой JMsolution Water Luminous SOS Ringer Toner XL моментально освежает и наполняет влагой, делает кожу нежной, мягкой и упругой, предотвращает сухость и борется с чувством стянутости. Готовит кожу к дальнейшему уходу, нормализует баланс pH, поддерживает эластичность и гладкость.",
+        description: `Увлажняющий тоник с пептидами и гиалуроновой кислотой JMsolution
+        Water Luminous SOS Ringer Toner XL моментально освежает и наполняет влагой,
+        делает кожу нежной, мягкой и упругой, предотвращает сухость и борется с чувством
+        стянутости. Готовит кожу к дальнейшему уходу, нормализует баланс pH, поддерживает
+        эластичность и гладкость.`,
         button: 1,
         favorite: false,
         volume: "600мл",
@@ -154,7 +199,10 @@ const items = [{
     },
     {
         title: "Мультивитаминный тоник для тусклой кожи Manyo",
-        description: "Мультивитаминный тонер для тусклой кожи Manyo Galac Whitening Vita Toner в кратчайшие сроки наполняет кожу влагой, возвращает тонус и здоровое сияние, улучшает цвет кожи, выравнивает тон и способствует осветлению пигментных пятен.",
+        description: `Мультивитаминный тонер для тусклой кожи Manyo Galac Whitening Vita
+        Toner в кратчайшие сроки наполняет кожу влагой, возвращает тонус и здоровое
+        сияние, улучшает цвет кожи, выравнивает тон и способствует осветлению пигментных
+        пятен.`,
         button: 1,
         favorite: false,
         volume: "210мл",
@@ -174,7 +222,6 @@ const itemTemplate = document.querySelector("#item-template");
 const nothingFound = document.querySelector("#nothing-found");
 
 function renderItems(arr) {
-
     nothingFound.textContent = "";
     itemsContainer.innerHTML = "";
     arr.forEach((item) => {
@@ -201,41 +248,49 @@ renderItems(currentState.sort((a, b) => sortByAlphabet(a, b)));
 const itemsFavourites = [];
 
 function prepareShopItem(shopItem) {
-
-    const { title, description, button, volume, img, price, discount, rating } = shopItem;
+    const { title, description, button, volume, img, price, discount, rating } =
+    shopItem;
     const item = itemTemplate.content.cloneNode(true);
     item.querySelector("h1").textContent = title;
     item.querySelector("p").textContent = description;
     item.querySelector(".volume").textContent = volume;
     item.querySelector("img").src = img;
     item.querySelector(".price").textContent = `${price}P`;
+
     if (discount > 0) {
         item.querySelector(".discount").textContent = `-${discount}%`;
     }
-    const buttonContainer = item.querySelector("button.heart");
+
+    const btnContainerFavourites = item.querySelector("button.heart");
+
     for (let i = 0; i < button; i++) {
         const heart = document.createElement("i");
         heart.classList.add("fa-regular", "fa-heart");
+
         if (shopItem.favorite) {
             heart.classList.add("active");
         }
-        heart.addEventListener('click', function() {
+
+        heart.addEventListener("click", function() {
+
             if (itemsFavourites.includes(shopItem)) {
-                heart.classList.remove('active');
+                heart.classList.remove("active");
                 shopItem.favorite = false;
                 const el = itemsFavourites.find((element) => element === shopItem);
                 const index = itemsFavourites.indexOf(el);
                 itemsFavourites.splice(index, 1);
             } else {
-                heart.classList.add('active');
+                heart.classList.add("active");
                 itemsFavourites.push(shopItem);
                 shopItem.favorite = true;
-
             }
-        })
-        buttonContainer.append(heart);
+        });
+
+        btnContainerFavourites.append(heart);
     }
+
     const ratingContainer = item.querySelector(".rating");
+
     for (let i = 0; i < rating; i++) {
         const star = document.createElement("i");
         star.classList.add("fa", "fa-star");
@@ -248,19 +303,16 @@ function prepareShopItem(shopItem) {
 const btnFavourites = document.querySelector(".favourites");
 btnFavourites.addEventListener("click", function() {
     renderItems(itemsFavourites);
-})
+});
 
-const buttonSale = document.querySelector(".btn-sale");
-buttonSale.addEventListener("click", function() {
-    const itemsOnSale = items.filter((el) =>
-        el.discount > 0);
+const btnSale = document.querySelector(".btn-sale");
+btnSale.addEventListener("click", function() {
+    const itemsOnSale = items.filter((el) => el.discount > 0);
     renderItems(itemsOnSale);
-})
-
+});
 
 const searchInput = document.querySelector("#search-input");
 const searchButton = document.querySelector("#search-btn");
-
 
 function applySearch() {
     const searchString = searchInput.value.trim().toLowerCase();
@@ -302,10 +354,10 @@ sortControl.addEventListener("change", (event) => {
             }
     }
     renderItems(currentState);
-
 });
-const btnProducts = document.getElementById('products');
+
+const btnProducts = document.getElementById("products");
 btnProducts.addEventListener("click", function(e) {
     e.preventDefault();
     renderItems(currentState);
-})
+});
